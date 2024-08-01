@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Bela Dangú">
+  <meta name="description" content="Portafolio de Bela Dangú">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Bela Dangú | Portafolio </title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/moon.svg">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <!-- Estilos de FancyBox -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+<!-- jQuery (requerido por FancyBox) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- FancyBox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+</head>
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/moon.svg" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-imagen-fondo">
+        <img src="imagenes/bela.jpeg" alt="Imagen de fondo" style="width: 100%; height: 100%; object-fit: cover;">
+        <div class="hero-contenido">
+          <div class="hero-texto">
+            <h1>Bela Dangú</h1><br>
+            <h2>Ciberanalista Jr/ Desarrollo citios Web.</h2>
+          </div>
+          <div class="hero-icono">
+            <a href="#sobre-mi">
+              <i class="bi bi-arrow-down-circle flecha-siguiente"></i>
+            </a>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--Sobre mí -->
+  <section id="sobre-mi" class="seccion-separada sobre-mi seccion-clara"></section><section class="seccion-oscura">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="sobre-mi-texto">
+            <br><br><br><br><br><br>
+            <h2>¡Hola! Soy Bela!</h2>
+            <br>
+            <p><h5>Me encanta explorar cómo la tecnología moldea y mejora nuestro entorno. </h5></p>
+            <p><h5>Con una mentalidad innovadora y sed de conocimiento, estoy lista para enfrentar los desafíos y contribuir al avance tecnológico. Estoy comprometida con el aprendizaje continuo y ansiosa por aportar mi entusiasmo a cualquier proyecto que emprenda. Además, me encanta actuar y aventurarme en cosas nuevas, lo que me ha llevado a explorar diversas áreas y a nunca tener miedo de salir de mi zona de confort. Mi pasión por la tecnología y mi amor por descubrir nuevas experiencias me permiten abordar cada desafío con creatividad y determinación, siempre buscando innovar y aprender más.</h5></p>
+            <br><br><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <br><br>
+          <div class="sobre-mi-imagen">
+           <br><br><br><br> <img src="imagenes/BELA1.jpeg" alt="Imagen de Bela">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Sobre mí -->
+<section id="sobre-mi" class="seccion-separada sobre-mi seccion-clara">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="sobre-mi-texto">
+          <div class="section-title">
+            <h2>Sobre mí</h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="count-box">
+                <i class="bi bi-shield-shaded" style="color: #2cbdee;"></i>
+                <p><strong>Ciberseguridad.</strong> Certificación en CISCO.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="count-box">
+                <i class="bi bi-lightbulb" style="color: #8a1ac2;"></i>
+                <p><strong>IA.</strong> Certificación internacional en la empresa Coreana RXO.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="count-box">
+                <i class="bi bi-code-square" style="color: #20b38e;"></i>
+                <p><strong>Desarrollo WEB.</strong> Bootcamp en TecnoloChicas PRO.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="count-box">
+                <i class="bi bi-filetype-py" style="color: #ffb459;"></i>
+                <p><strong>Data Science.</strong> Diplomado, en proceso...</p>
+              </div>
+            </div>
+          </div><!-- End .row -->
+        </div><!-- End .sobre-mi-texto -->
+      </div><!-- End .col-md-6 -->
+
+      <!-- Experiencia -->
+      <div class="col-md-6">
+        <section class="experiencia seccion-clara">
+          <div class="container text-center">
+            <div class="row">
+              <!-- Desarrollo Web -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-person-workspace"></i>
+                <p class="experiencia-titulo">Embajadora</p>
+                <p>Soy instructora en TecnoloChicas, donde comparto mis conocimientos y pasiones con niñas de todo México. Me comprometo plenamente con mi labor y aspiro a que más mujeres se unan a este camino. Lidero y empodero a mujeres.</p>
+                <div class="badges-contenedor">
+                  <span class="badge">Lider</span>
+                  <span class="badge">IA, IOT, Programación</span>
+                  <span class="badge">TecnoloChicas</span>
+                </div>
+              </div>
+              <!-- Articulos -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-eyeglasses"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>Entusiasmada por adentrarme en el mundo de las carreras STEM, soy estudiante de Contaduría en la UNAM. Estoy deseosa de aprender sobre tecnología y de generar un impacto positivo en mi comunidad.<br><br><br></p>
+                <div class="badges-contenedor">
+                  <span class="badge">UNAM</span>
+                  <span class="badge">RXO</span>
+                  <span class="badge">JA</span>
+                  <span class="badge">TCPRO</span>
+                </div>
+              </div>
+              <!-- Estudiante -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Empresaria</p>
+                <p>Utilizando mis habilidades y creatividad, lidero proyectos, algunos en colaboración con mi familia, para generar ingresos adicionales que apoyen mis estudios y, en el futuro, devolver lo recibido.<br><br><br><br></p>
+                <div class="badges-contenedor">
+                  <span class="badge">Proyectos</span>
+                  <span class="badge">Creatividad</span>
+                  <span class="badge">Habilidades</span>
+                </div>
+              </div>
+            </div><!-- End .row -->
+          </div><!-- End .container -->
+        </section><!-- End .experiencia -->
+      </div><!-- End .col-md-6 -->
+    </div><!-- End .row -->
+  </div><!-- End .container -->
+</section><!-- Final de sección Sobre mí -->
+
+<!-- Galería de Proyectos -->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro"><span style="color:#a12e72">Proyectos Colaborativos</span></h2>
+  <h3 class="seccion-descripcion">Estos son algunos de los proyectos colaborativos más significativos en los que he participado recientemente, destacando mi capacidad para generar impacto y contribuir al éxito de diversas empresas y personas en mi comunidad.</h3>
+
+  <div class="container text-center proyectos-contenedor">
+    <div class="row portfolio-container d-flex align-items-stretch">
+      <!-- Proyecto 1 -->
+      <div class="col-lg-6 col-md-12 d-flex flex-column">
+        <div class="proyecto">
+          <!-- Carrusel -->
+          <div id="carouselProyecto1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/CERTIFICADO DANGU RXO.jpeg" alt="Certificado RXO">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Certificación</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/6J3x-1Khn5o?si=RV5XcajB5EIcw1rW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO</p>
+                    <p class="cargo">Introduction to RXO Technology</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO1.png" alt="RXO 3">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Presentación del proyecto "Alcaldía Inteligente"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO2.png" alt="Imagen 4">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Presentación del proyecto "Alcaldía Inteligente"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <video class="d-block w-100" controls>
+                    <source src="imagenes/RXOfire flame.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Fire Recognition/ vigilancia y prevención efectivas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <video class="d-block w-100" controls>
+                    <source src="imagenes/RXOcctv.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">CCTV/ Detecta rostros y movimientos en tiempo real.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO detect-pistol.jpeg" alt="Imagen 4">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Gun Recognition/ Vigilancia y prevención efectivas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO OD.jpeg" alt="OD">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Object Detection / Detecta personas y objetos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO OD1.jpeg" alt="OD">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Object Detection / Detecta personas y objetos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <video class="d-block w-100" controls>
+                    <source src="imagenes/RXO OD0.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Object Detection / Detecta personas y objetos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="d-block w-100" src="imagenes/RXO HR.jpeg" alt="HR">
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">Hand Recognition/ Contar, señalar direcciones y controlar dispositivos con gestos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <video class="d-block w-100" controls>
+                    <source src="imagenes/RXOocr.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="testimonio-info">
+                    <p class="cliente">RXO AI PROJECT 발표회</p>
+                    <p class="cargo">OCR / Detección de placas de autos en tiempo real.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+
+        <!-- Texto legal -->
+        <div class="legal-text">
+          <p><strong>RXO</strong></p>
+          <p>Capacitación y certificación en RXO, empresa coreana en inteligencia artificial, para la creación de proyectos revolucionarios que transformarán nuestra comunidad.</p>
+          <p> Con el desarrollo de tecnologías: </p>
+          <p><strong>Áreas de Especialización:</strong> OCR, OBJECT DETECTION, SMART SPEAKER,HAND RECOGNITION y FACE RECOGNITION
+          </p>
+          <p>La ceremonia en la alcaldía La Magdalena Contreras contó con la presencia del Alcalde Luis Gerardo Quijano Morales, el Sr. Park Soonjeaony, Director Ejecutivo de RXO, y la embajadora de Corea, Rebeca Delfín Hernández de Kotra, quienes fueron testigos de estos innovadores proyectos, en conjunto con habitantes de la alcaldía.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Proyecto 2 -->
+<section id="proyecto2" class="proyectos-recientes seccion-clara">
+  <div class="container">
+    <div class="row d-flex align-items-stretch">
+      <!-- Texto legal -->
+      <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center order-lg-1 order-md-1 order-2">
+        <div class="legal-text">
+          <p><strong>Mujer Digital</strong></p>
+            <p>Un innovador programa de Junior Achievement</p>
+          <p><strong>Áreas de Especialización:</strong> Cisco Certified Support Technician Cybersecurity y Habilidades blandas</p>
+            <p>Ofrece una capacitación de alto nivel certificada por CISCO en ciberseguridad, además de fomentar el desarrollo integral de habilidades blandas esenciales para la vida.</p>
+          <p>Completé ambos módulos con éxito y obtuve la certificación. Además, fui seleccionada para una entrevista donde compartí mi enriquecedora experiencia y tuve el honor de ser la imagen representativa del programa.</p>
+        </div>
+      </div>
+      <!-- Carrusel -->
+      <div class="col-lg-6 col-md-12 d-flex flex-column order-lg-2 order-md-2 order-1">
+        <div class="proyecto">
+          <div id="carouselProyecto2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="imagenes/CISCO.jpeg" alt="CISCO">
+                <div class="testimonio-info">
+                  <p class="cliente">Certificación</p>
+                  <p class="cargo">Technician Cybersecurity</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/cfzrdkmAjGo?si=euVXVOvVyXWpSdPr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="testimonio-info">
+                    <p class="cliente">MUJER DIGITAL/ JA</p>
+                    <p class="cargo">Conoce mujer digital</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagenes/MD.jpeg" alt="Imagen 4">
+                <div class="testimonio-info">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagenes/MD1.jpeg" alt="Imagen 5">
+                <div class="testimonio-info">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagenes/MD2.jpeg" alt="Imagen 6">
+                <div class="testimonio-info">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Proyecto 3 -->
+<div class="row">
+  <div class="col-lg-6 col-md-12 d-flex flex-column">
+    <div class="proyecto flex-grow-1">
+      <!-- Carrusel -->
+      <div id="carouselProyecto3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC.jpeg" alt="TC">
+              <div class="testimonio-info">
+                <p class="cliente">TecnoloChicas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC0.jpeg" alt="TC">
+              <div class="testimonio-info">
+                <p class="cliente">TecnoloChicas</p>
+                <p class="cargo">HTML, CSS y JS</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <video class="d-block w-100" controls>
+                <source src="imagenes/ITAM TC.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="testimonio-info">
+                <p class="cliente">Instructora TecnoloChicas</p>
+                <p class="cargo">Olimpiada de matemáticas femenil</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC2.jpeg" alt="Imagen 4">
+              <div class="testimonio-info">
+                <p class="cliente">Instructora TecnoloChicas</p>
+                <p class="cargo">Olimpiada de matemáticas femenil</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC1.jpeg" alt="tc">
+              <div class="testimonio-info">
+                <p class="cliente">Instructora TecnoloChicas</p>
+                <p class="cargo">Futuras STEM</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC3.jpeg" alt="tc">
+              <div class="testimonio-info">
+                <p class="cliente">Instructora TecnoloChicas</p>
+                <p class="cargo">Olimpiada de matemáticas femenil</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC5.jpeg" alt="tc">
+              <div class="testimonio-info">
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/TC6.jpeg" alt="tc">
+              <div class="testimonio-info">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="d-block w-100" src="imagenes/tc7.jpeg" alt="tc">
+              <div class="testimonio-info">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+    <!-- Texto legal -->
+    <div class="legal-text">
+      <p><strong>TecnoloChicas</strong></p>
+      <p>Embajadora e instructora en TecnoloChicas/ Fundación Televisa</p>
+      <p>En mi rol como embajadora e instructora en TecnoloChicas, capacito a niñas en el fascinante mundo de la tecnología y me convierto en un modelo de inspiración para ellas.</p>
+      <p><strong>Áreas de Especialización:</strong> Desarrollo Web, Desarrollo de Aplicaciones Móviles, Robótica e Inteligencia Artificial</p>
+      <p>Me emociona profundamente formar parte de esta increíble comunidad. Entre los proyectos destacados, tuve el honor de impartir capacitación en robótica a niñas que participaron en la Olimpiada Femenil de Matemáticas, los cursos fueron impartidos en el ITAM y visitamos empresas de renombre como Bosch.</p>
+      <p>También desempeñé un papel crucial en la logística del evento Futuras STEM 2024, celebrado en la SEP, que reunió a aproximadamente 1500 personas y contó con diversos aliados importantes.</p>
+    </div>
+  </div>
+</div><br><br>
+</section>
+<!-- End My Portfolio Section -->
+
+
+
+
+<!-- Contacto -->
+<section id="contacto" class="seccion-separada contacto">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contacto</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="info-box">
+          <i class="bi bi-geo-alt"></i>
+          <h3>Ubicación: CDMX</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box mt-4">
+          <i class="bi bi-envelope"></i>
+          <h3>Correo:</h3>
+          <p>lbdan19@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box mt-4">
+          <i class="bi bi-phone"></i>
+          <h3>Celular:</h3>
+          <p>+52 5517335437</p>
+        </div>
+      </div>
+     
+      <div class="col-lg-6">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240864.1946612049!2d-99.3084255838363!3d19.390659363393258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1722466975678!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon/"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- Final de sección de contacto --> <br><br><br>
+ <!-- Contacto -->
+<section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          Contactame.
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="lbdan19j@gmail.com">
+            <button type="button" class="btn btn-primary">  
+              Contacto
+              <i class="bi bi-envelope-check-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="footer-content">
+          <p>2023 &copy; Todos los derechos reservados | Diseñado por <a href="https://github.com/Bela" target="_blank">Bela Dangú</a></p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.instagram.com/beli_qt/"><i class="bi bi-instagram fs-3"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/beladangu/"><i class="bi bi-linkedin fs-3"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/Bela"><i class="bi bi-github fs-3"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><!-- Final de pie de página -->
+
+<!-- Scripts JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
